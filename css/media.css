@@ -1,0 +1,137 @@
+@media(max-width:1200px){
+    .mobile_logo{
+        display: block;
+        width: 80px;
+    }
+    .offcanvas{
+        width: 300px !important;
+        padding: 30px;
+    }
+    .offcanvas-header{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .search_category{
+        display: none;
+    }
+    .header_cart{
+        display: none;
+    }
+    .header_cart_md{
+        visibility: visible;
+    }
+    .navbar-toggler {
+        padding: 0;
+        font-size: 20px;
+        border: 0;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+}
+@media(max-width:991px){
+    .banner_cetagory{
+        margin-bottom: 20px;
+    }
+    .white_btn{
+        font-size: 14px;
+    }
+    .banner_content_wrapper{
+
+    }
+    .banner{
+        /* margin-bottom: 30px; */
+    }
+}
+@media(max-width:768px){
+    p{
+        font-size: 14px;
+    }
+    .contact_wrapper{
+        display: none;
+    }
+    .single_card{
+        margin-bottom: 30px;
+    }
+    .payment_option{
+        text-align: center;
+    }
+    .bottom_footer p{
+        text-align: center;
+    }
+    .bottom_footer img{
+        width: 60%;
+    }
+}
+@media(max-width:575px){
+    .container{
+        padding: 0 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+    .banner_content h1 {
+        font-size: 40px;
+    }
+    .logo{
+        /* width: 60%; */
+    }
+    .feature_filter li {
+        font-size: 16px;
+    }
+    .search_form {
+        padding: 0px 0px 0px 10px;
+    }
+    .search_form form input {
+        font-size: 14px;
+    }
+    .ad_1{
+        margin-bottom: 30px;
+    }
+    .header_cart_md a, .header_cart_md p, .header_cart_md span{
+        font-size: 14px;
+    }
+    .header_cart_md{
+        margin-right: 20px;
+        width: 160px;
+    }
+    .header_cart_md a, .header_cart_md i {
+        margin-right: 0px;
+    }
+    .banner_products .owl-nav{
+        display: none;
+    }
+    .navbar-brand {
+        margin-right: 0;
+        width: 70px;
+    }
+    .dropbtn {
+        height: 40px;
+    }
+    .banner_content {
+        padding-left: 30px;
+    }
+}
